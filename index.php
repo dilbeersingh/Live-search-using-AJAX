@@ -16,7 +16,7 @@ include"db.php";
    <div class="col-lg-3">
    <form method="post" action="index.php">
        
-    <input class="form-control"type="text"  name="search" id="search" onkeyup="getdata(this.value)"> 
+    <input class="form-control"type="text" autocomplete="false" name="search" id="search" onkeyup="getdata(this.value)"> 
        
        
    </form>
